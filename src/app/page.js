@@ -48,11 +48,11 @@ export default function Home() {
         fontFamily: 'sans-serif',
       }}
     >
-      <h1 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '1.5rem',  paddingLeft:'49 0px'}}>
+      <h1 style={{ fontSize: '2rem', fontWeight: 'bold', marginBottom: '1.5rem',   }}>
        TODO App
       </h1>
 
-      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem',  }}>
         <input
           style={{
             border: '1px solid #d1d5db',
@@ -81,7 +81,7 @@ export default function Home() {
         </button>
       </div>
 
-      <ul style={{ listStyle: 'none', padding: 0, margin: 0 ,  paddingLeft:'400px', paddingRight:'400px'}}>
+      <ul style={{ listStyle: 'none', padding: 0, margin: 0 ,   width:'400px'}}>
         {todos.map((todo) => (
           <li
             key={todo.id}
